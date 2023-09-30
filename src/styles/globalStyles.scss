@@ -1,0 +1,35 @@
+:root {
+    --background-color: #292929;
+
+    //colors
+    --primary-color: #30C7B5;
+
+    --gray-00: #fff;
+    --gray-01: #4F5655;
+    --gray-02: #14261C;
+    --gray-03: #000;
+
+    --primary-font: 'VT323', monospace;
+}
+
+.dark-mode {
+    --background-color: #292929;
+
+    --primary-color: #30C7B5;
+
+    --gray-00: #000;
+    --gray-01: #14261C;
+    --gray-02: #4F5655;
+    --gray-03: #fff;
+}
+
+body, #root {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: var(--primary-font);
+}
+
