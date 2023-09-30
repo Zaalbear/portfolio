@@ -12,6 +12,10 @@
     
     .banner__text{
         font-size: 4rem;
+
+        .text__inner{
+            color: var(--primary-color);
+        }
     }
 
     .banner__arrow{
