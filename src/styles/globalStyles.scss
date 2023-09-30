@@ -15,7 +15,7 @@
 .dark-mode {
     --background-color: #292929;
 
-    --primary-color: #30C7B5;
+    --primary-color: rgb(48, 199, 181);
 
     --gray-00: #000;
     --gray-01: #14261C;
@@ -27,6 +27,7 @@ body, #root {
     width: 100%;
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 

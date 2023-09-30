@@ -1,0 +1,59 @@
+.banner__container{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+        
+    .banner__title{
+        font-size: 2rem;
+    }
+    
+    .banner__text{
+        font-size: 4rem;
+    }
+
+    .banner__arrow{
+        margin-top: 32px;
+
+        font-size: 2rem;
+        display: flex;
+        
+        transform: rotate(90deg);
+        
+        .arrow{
+            color:var(--gray-02);
+
+            &:hover{
+                color: var(--primary-color);
+            }
+        }
+
+    }
+
+    .image__container{
+        width: 99%;
+        height: 400px;
+
+        position: relative;
+
+        width: 100%;
+        height: 400px;
+            
+        background-image: url(https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2023/06/person-at-computer.jpeg.jpg);
+        background-size: 100%;
+         background-position: center center;
+
+           &::after {
+            content: "";
+            position: absolute; /* Posição absoluta para que o pseudo-elemento cubra completamente o elemento pai */
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background-color: rgba(48, 199, 181, 0.6);
+            z-index: 1;
+        }
+    }
+}
