@@ -1,7 +1,7 @@
 import "../../styles/styles.scss";
 
 export const LateralBar = () => {
-    const numbers = Array.from({ length: 150 }, (_, index) => index + 1);
+    const numbers = Array.from({ length: 99 }, (_, index) => index + 1);
 
   return (
     <div className="bar__container">

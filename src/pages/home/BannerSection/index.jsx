@@ -11,7 +11,7 @@ export const BannerSection = () => {
         </div>
 
         <div className={styles.image__container}>
-            <img className={styles.banner__image} />
+            <img className={styles.banner__image} src="https://media.licdn.com/dms/image/D4D03AQFl-NRi0hPgsA/profile-displayphoto-shrink_800_800/0/1685033515614?e=1701907200&v=beta&t=H4aXw52L31ACKOspupDOcNLYNs4KHLoxhPZ7tmndUlA" />
         </div>
     </section>
   )

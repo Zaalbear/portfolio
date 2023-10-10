@@ -3,9 +3,18 @@ import cssIcon from "../assets/css-icon.png";
 import jsIcon from "../assets/js-icon.png";
 import reactIcon from "../assets/react-icon.png";
 
-export const technologies = [
+export const frontEnd = [
   { name: "HTML", img: htmlIcon },
   { name: "CSS", img: cssIcon },
   { name: "Javascript", img: jsIcon },
   { name: "React", img: reactIcon },
+  { name: "SASS"},
+  { name: "Styled-components"},
+  { name: "Rest APIs"},
+  { name: "Axios"},
+
+];
+
+export const backEnd = [
+  { name: "Python", img: htmlIcon },
 ];
