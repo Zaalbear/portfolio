@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
+
+.main_container {
+    width: 70%;
+    height: 80vh;
+
+    display: flex;
+    gap: .9rem;
+
+    .title_container {
+        width: 30%;
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        gap: 5%;
+
+        position: relative;
+
+        .img_container {
+            position: absolute;
+            bottom: 5%;
+            left: 0;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .projects_container {
+        width: 70%;
+
+        .projects_list {
+            width: 100%;
+            height: fit-content;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            gap: 25px;
+
+            position: relative;
+
+            .project_card {
+                width: 45%;
+                height: fit-content;
+
+                background-color: var(--color-primary);
+                border: 2px solid var(--color-primary);
+                border-radius: 5px;
+
+                position: relative;
+
+                .cover {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+
+                    cursor: pointer;
+
+                    width: 100%;
+                    height: 100%;
+                    background-color: white;
+
+                    border-radius: 5px;
+
+                    opacity: 0;
+
+                    .cover_text {
+                        width: 100%;
+                        height: 100%;
+
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        color: var(--gray-4);
+
+                    }
+                }
+
+                &:hover {
+                    .cover {
+                        opacity: 0.5;
+
+                        transition: all .5s linear;
+                    }
+                }
+            }
+
+            .card_img_container {
+                width: 100%;
+                height: fit-content;
+
+                overflow: hidden;
+
+                position: relative;
+
+                .card_img {
+                    width: 100%;
+                    border-radius: 5px;
+                }
+
+                .card_tags {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+
+                    width: 100%;
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    .new_tag,
+                    .front_tag,
+                    .back_tag {
+                        padding: 0.25rem 0.5rem;
+                        color: var(--gray-4);
+                        font-family: "Jersey 25", sans-serif;
+                        font-weight: 400;
+
+                        background-color: var(--color-primary);
+
+                        border-radius: 0 0 5px 0;
+                    }
+
+                    .new_tag {
+                        background-color: lime;
+                        border-radius: 0 0 0 5px;
+                    }
+
+                    .front_tag {
+                        background-color: aqua;
+                    }
+
+                    .back_tag {
+                        background-color: violet;
+                    }
+                }
+            }
+
+            .infos_container {
+                width: 100%;
+                height: 40%;
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+
+                position: relative;
+
+                .card_title {
+                    color: var(--gray-4);
+                    font-weight: 800;
+                    font-size: 1.5em;
+                    text-align: center;
+                }
+
+
+                .skills_list {
+                    width: 100%;
+
+                    display: flex;
+
+                    position: absolute;
+                    top: -25px;
+                    right: 0;
+
+                    .skill {
+                        height: fit-content;
+
+                        .icon {
+                            color: var(--gray-1);
+                            font-size: 1.5em;
+                        }
+                    }
+                }
+
+                .buttons_container {
+                    width: 100%;
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: .75rem;
+
+                    .buttons {
+                        background-color: transparent;
+
+                        border: 2px solid transparent;
+                        border-radius: 10px;
+
+                        width: fit-content;
+                        height: fit-content;
+
+                        cursor: pointer;
+
+                        .icon {
+                            font-size: 1.5rem;
+                            color: var(--gray-3);
+                        }
+
+                        &:hover {
+                            .icon {
+                                color: var(--gray-4);
+                            }
+                        }
+                    }
+                }
+            }
+
+            .project_card:first-child {
+                grid-column: span 2;
+                grid-row: span 1;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 425px) {}

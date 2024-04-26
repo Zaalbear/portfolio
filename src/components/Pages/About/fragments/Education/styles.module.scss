@@ -1,0 +1,70 @@
+.education_container {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    .education_title {
+        font-family: Jost, sans-serif;
+        font-size: 1.35rem;
+
+        margin: 25px 0;
+    }
+
+    .education_list {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 15px;
+
+        margin-left: 25px;
+
+        list-style: disc;
+
+        .education {
+            font-family: Jost, sans-serif;
+            font-size: 1rem;
+
+            .education_text {
+                font-weight: 300;
+                color: var(--gray-2);
+
+                //cursor: pointer;
+
+                .education_school {
+                    font-weight: 700;
+                }
+
+                .education_name {
+                    font-style: italic;
+                }
+
+                .education_date {
+                    font-weight: 500;
+                }
+
+                /* &:hover {
+                    color: var(--color-primary);
+
+                    Adicionar o hover depois que criar o modal para mostrar o certificado ao clicar no curso
+                } */
+            }
+
+
+
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .education_container {
+        justify-content: center;
+
+        text-align: center;
+
+        .skills_list {
+            justify-content: center;
+        }
+    }
+}
