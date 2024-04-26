@@ -3,7 +3,6 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import XIcon from '@mui/icons-material/X';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import styles from './styles.module.scss'
 
 export const Header = () => {
@@ -16,7 +15,6 @@ export const Header = () => {
         <li><a className={styles.contact_item} href="https://www.facebook.com/joao.barcellos.37" target='_blank'><FacebookIcon /></a></li>
         <li><a className={styles.contact_item} href="https://www.linkedin.com/in/joão-victor-barcellos-23507b165/" target='_blank'><LinkedInIcon /></a></li>
         <li><a className={styles.contact_item} href="https://www.instagram.com/zaalbear13/" target='_blank'><InstagramIcon /></a></li>
-        <li><a className={styles.contact_item} href="" target='_blank'><EmailOutlinedIcon /></a></li>
       </ul>
     </header>
   )

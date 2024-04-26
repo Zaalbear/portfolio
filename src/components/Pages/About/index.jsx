@@ -7,9 +7,9 @@ import dev_img from "../../../assets/decorations/computer.svg"
 import { coursesList, educationList } from "../../../data/education.database"
 
 export const About = () => {
-  let projects_count = 0
+  let projects_count = 24
   let certifications_count = 0
-  let commend_count = 0
+  let commend_count = 10
   const [infos, setInfos] = useState('skills')
 
   educationList.map((course) => (
