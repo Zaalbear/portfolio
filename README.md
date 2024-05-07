@@ -31,7 +31,7 @@ Este é um portfólio desenvolvido para fins de ser utilizado como cartão de vi
 
 ## Implantação
 
-Este projeto está disponível em: [https://developer-green-portfolio-vagnermengali.vercel.app/](https://developer-green-portfolio-vagnermengali.vercel.app/)
+Este projeto está disponível em: [https://jvsbarcellosportfolio.vercel.app/](https://jvsbarcellosportfolio.vercel.app/)
 
 ## Contribuição
 
@@ -65,7 +65,7 @@ This is a portfolio was developed to serve as a visit card to companies, recrute
 
 ## Deploy
 
-This project is available at: [https://developer-green-portfolio-vagnermengali.vercel.app/](https://developer-green-portfolio-vagnermengali.vercel.app/)
+This project is available at: [https://jvsbarcellosportfolio.vercel.app/](https://jvsbarcellosportfolio.vercel.app/)
 
 ## Contribution
 
